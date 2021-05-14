@@ -1,4 +1,4 @@
-FROM hseeberger/scala-sbt:8u252_1.3.13_2.12.11
+FROM hseeberger/scala-sbt:8u282_1.5.2_2.13.5
 
 RUN curl -fLo cs https://git.io/coursier-cli-linux && \
       chmod +x cs && \
